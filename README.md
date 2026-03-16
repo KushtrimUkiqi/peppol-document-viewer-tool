@@ -51,22 +51,6 @@ src/
 4. **Display** — The viewer shows the rendered invoice with toolbar controls
 5. **Export** — Download as HTML or PDF
 
-## 🌐 Deploy to Vercel (Free)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/KushtrimUkiqi/peppol-document-viewer-tool)
-
-Or manually:
-
-```bash
-npm install -g vercel
-vercel
-```
-
-## 🔧 Adding New Formats
-
-1. Create a new detector in `src/lib/detection/detectors/`
-2. Add the format to the `DocumentFormat` enum in `src/lib/detection/types.ts`
-3. Extend the renderer in `src/lib/renderer/`
 4. Add a sample invoice in `public/sample-invoices/`
 
 ## 📄 License
